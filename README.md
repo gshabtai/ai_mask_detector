@@ -1,12 +1,12 @@
 # ai_mask_detector
-A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano.
+A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano and ResNet18 via Python in JupyterLab. 
 
 ## SETUP AND EXECUTION
 1. First, make sure you have a Jetson Nano kit: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 
 2. Set up your Jetson Nano according to the instructions of the kit.
 
-3. This project was done via JupyterLab for ease of use. Install the following Python packages to your JupyterLab environment. Keep in mind that this is a comprehensive list, and you probably already have most of these in your environment. Blog tutorial for installing packages from Jupyter: https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
+3. This project was done via JupyterLab for ease of use. Raw code is included if you wish to run this outside JupyterLab. However, you will need to re-write the widget features to your environment. Install the following Python packages to your JupyterLab environment. Keep in mind that this is a comprehensive list, and you probably already have most of these in your environment. Blog tutorial for installing packages from Jupyter: https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
 
 	Python Packages:
 		torch, 
@@ -48,3 +48,5 @@ NOTE: If you wish to capture multiple datasets, you can add more datasets to the
 Currently, the code gives you a text message depending on the status of your masking. However, you could customize this output to do whatever you want! For instance, you could have it snap a photo of any person without a mask, or have a speaker system that tells them to put on a mask (or fix their mask, depending on their masking status).
 
 In the 6th code block, there are two things you can easily change. First, the weight requirement for sufficient confidence in the detected masking status is currently 0.5, or 50%. You can change this if you'd like, but remember to only use numbers 50% and up. Otherwise, multiple categories can have sufficient confidence. Second, see the code under the comments for no mask, bad mask, good mask, and undecided. Currently, these is a simple warning_widget that changes its text depending on masking status. Here, you can make masking status do whatever you want.  
+
+See screenshot: https://i.gyazo.com/beebaf055e2dc63b50888f3bb6cee2d2.png
