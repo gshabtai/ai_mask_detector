@@ -36,6 +36,8 @@ A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano.
 
 8. In the final block, uncomment the appropriate view you want. In the setup process, you may want to collect data and train the model on your setup. To do so, see "Uncomment code below for training interface" in the code. Alternatively, feel free to any data you have previously recorded. The reason I am not providing you with my data is that our physical environments are likely very different, so the model may not be accurate.
 
+NOTE: If you wish to capture multiple datasets, you can add more datasets to the second block. For instance: DATASETS = ['ds_0', 'ds_1', 'ds_2'] 
+
 9. Once you have your data, type in 20 for epochs, and hit train. Do not worry if you don't see any progress immediately, the first epoch is always the slowest.
 
 10. Once the model is trained, feel free to save it. In the final block again, re-comment the code for training interface, and uncomment the code for results interface. Run the block, right click, and hit "Create New View For Output".
