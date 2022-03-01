@@ -34,7 +34,7 @@ A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano.
 
 7. Run all blocks except the final one. Please be patient and wait for the confirmation text below the block to make sure everything runs properly.
 
-8. In the final block, uncomment the appropriate view you want. In the setup process, you may want to collect data and train the model on your setup. To do so, see "Uncomment code below for training interface" in the code. Alternatively, feel free to any data you have previously recorded. The reason I am not providing you with my data is that our physical environments are likely very different, so the model may not be accurate.
+8. In the final block, uncomment the appropriate view you want. In the setup process, you may want to collect data and train the model on your setup. To do so, see "Uncomment code below for training interface" in the code. Alternatively, feel free to any data you have previously recorded. I recommend at least 100 photos for each category.
 
 NOTE: If you wish to capture multiple datasets, you can add more datasets to the second block. For instance: DATASETS = ['ds_0', 'ds_1', 'ds_2'] 
 
