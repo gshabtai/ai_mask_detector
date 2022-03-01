@@ -7,6 +7,7 @@ A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano.
 2. Set up your Jetson Nano according to the instructions of the kit.
 
 3. This project was done via JupyterLab for ease of use. Install the following Python packages to your JupyterLab environment. Keep in mind that this is a comprehensive list, and you probably already have most of these in your environment. Blog tutorial for installing packages from Jupyter: https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
+
 	Python Packages:
 		torch
 		jetcam
