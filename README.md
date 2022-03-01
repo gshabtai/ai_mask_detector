@@ -26,7 +26,7 @@ A deep neural network for detecting mask status. Uses NVIDIA Jetson Nano and Res
 	JupyterLab Specific Packages:
 		ipywidgets
 
-4. Download the code from this repository and open it in JupyterLab. Alternatively, the code can be easily adapted for other environment, although the widgets would need to be redone.
+4. Download the code from this repository and open it in JupyterLab. Alternatively, the code can be easily adapted for other environment, although the widgets would need to be redone. Make sure to maintain the file hierarchy as it is used for storing data.
 
 5. Load notebook and code into JupyterLab.
 
